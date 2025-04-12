@@ -182,7 +182,7 @@ export const server = () => {
   gulp.watch(path.src.assets, copy)
 }
 
-const clear = () => deleteAsync(path.dist.base, {
+export const clear = () => deleteAsync(path.dist.base, {
   force: true,
 })
 
