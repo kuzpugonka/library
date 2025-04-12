@@ -1,0 +1,13 @@
+@import 'var';
+
+@include font(FiraCode, Regular);
+@include font(FiraCode, Bold);
+@include font(FiraCode, SemiBold);
+@include font(FiraCode, Light);
+@include font(FiraCode, Medium);
+@include font(AmaticSC, Regular);
+@include font(AmaticSC, Bold);
+
+body {
+  font-family: FiraCode;
+}
