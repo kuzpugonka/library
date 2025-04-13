@@ -1,13 +1,16 @@
 @import 'var';
 
-@include font(FiraCode, Regular);
-@include font(FiraCode, Bold);
-@include font(FiraCode, SemiBold);
-@include font(FiraCode, Light);
-@include font(FiraCode, Medium);
-@include font(AmaticSC, Regular);
-@include font(AmaticSC, Bold);
+@include font(Montserrat, Regular);
+@include font(Montserrat, Bold);
+@include font(Montserrat, Medium);
+
+
 
 body {
-  font-family: FiraCode;
+  font-family: "Montserrat", sans-serif;
+  color: #e22323;
+}
+
+.container {
+  padding: 0 20px;
 }
